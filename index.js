@@ -237,4 +237,4 @@ bot.on('message', message => {
 
 
 
-bot.login(token);
+bot.login(process.env.token);
